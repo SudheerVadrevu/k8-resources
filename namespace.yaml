@@ -1,0 +1,7 @@
+kind: namespace
+apiVersion: v1
+metadata:
+  name: JaiDurga
+  labels:
+    name: test
+    environment: sudheer
