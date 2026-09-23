@@ -1,7 +1,7 @@
 kind: Namespace
 apiVersion: v1
 metadata:
-  name: jaiDurga
+  name: jaidurga
   labels:
     name: test
     environment: sudheer
