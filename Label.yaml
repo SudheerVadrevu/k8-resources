@@ -1,7 +1,7 @@
 kind: Pod
 apiVersion: v1
 metadata:
-  name: Label
+  name: label
   labels:
    name: sudheer
    job: sodhi chepadam
