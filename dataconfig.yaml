@@ -1,0 +1,10 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: firstdata
+data:
+   sudheer: "very intelligent"
+   vineela: "Business women"
+   pranavi:  "small entrepreneur"
+   
+
