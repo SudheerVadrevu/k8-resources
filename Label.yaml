@@ -1,9 +1,13 @@
-apiVersion: v1
 kind: Pod
-Metadata:
+apiVersion: v1
+metadata:
   name: Label
   labels:
    name: sudheer
    job: sodhi chepadam
    name: vineela
    job: emi cheyakapovadam
+spec:
+  container:
+  - name: sudheer
+  image: nginx
