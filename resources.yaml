@@ -4,13 +4,15 @@ metadata:
   name: resource
 spec:
   containers:
-    - name: sweden
-      image: nginx
-      
-      resources:
+  - name: sweden
+    image: nginx
+
+    resources:
         requests: 
           memory: "64Mi"  # these are soft limits
           cpu: "250m"
         limits:   #These are hard limits
           memory: "128Mi"
           cpu: "500m"
+      
+      
