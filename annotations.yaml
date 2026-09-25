@@ -1,0 +1,10 @@
+kind: Pod
+apiVersion: v1
+metadata:
+  name: dog
+  annotations:
+    kubernetes.io/created-by: sudheer
+spec:
+  containers:
+  - name: sudheer
+    image: nginx
