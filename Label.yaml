@@ -8,6 +8,6 @@ metadata:
    name: vineela
    job: emi cheyakapovadam
 spec:
-  container:
+  containers:
   - name: sudheer
     image: nginx
