@@ -10,4 +10,4 @@ metadata:
 spec:
   container:
   - name: sudheer
-  image: nginx
+    image: nginx
