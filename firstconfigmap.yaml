@@ -6,9 +6,12 @@ spec:
   containers:
   - name: kishore
     image: nginx
-    env:
-    - name: saibaba
-      valueFrom:
-        configMapKeyRef:
-         name: firstdata           # The ConfigMap this value comes from.
-         key: pranavi
+    # env:
+    # - name: saibaba
+    #   valueFrom:
+    #     configMapKeyRef:
+    #      name: firstdata           # The ConfigMap this value comes from.
+    #      key: pranavi
+    envFrom:
+    - configMapRef:
+        name: firstdata
