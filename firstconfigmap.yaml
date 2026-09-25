@@ -7,8 +7,8 @@ spec:
   - name: kishore
     image: nginx
     env:
-      - name: saibaba
-        valueFrom:
-          configMapKeyRef:
+    - name: saibaba
+      valueFrom:
+        configMapKeyRef:
           name: firstdata           # The ConfigMap this value comes from.
           key: pranavi
