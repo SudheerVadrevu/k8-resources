@@ -4,9 +4,9 @@ metadata:
   name: label
   labels:
    name: sudheer
-   job: sodhi chepadam
+   job: sodhi-chepadam
    name: vineela
-   job: emi cheyakapovadam
+   job: emi-cheyakapovadam
 spec:
   containers:
   - name: sudheer
