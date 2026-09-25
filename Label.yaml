@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Pod
+Metadata:
+  name: Label
+  labels:
+   name: sudheer
+   job: sodhi chepadam
+   name: vineela
+   job: emi cheyakapovadam
