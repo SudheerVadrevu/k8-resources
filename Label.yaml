@@ -3,10 +3,10 @@ apiVersion: v1
 metadata:
   name: label
   labels:
-   name: sundar
-   job: sodhi-chepadam
-   name: vineela
-   job: emi-cheyakapovadam
+   - name: sundar
+     job: sodhi-chepadam
+   - name: vineela
+     job: emi-cheyakapovadam
 spec:
   containers:
   - name: sudheer
