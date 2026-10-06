@@ -7,6 +7,6 @@ metadata:
     project: "expense"
     environment: "dev"
     component: "testing"
-container:
+containers:
 - name: nginx
   image: nginx
