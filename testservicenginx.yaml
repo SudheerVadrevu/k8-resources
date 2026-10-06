@@ -3,7 +3,7 @@ apiVersion: v1
 metadata:
   name: testpodforservice
   labels:
-    sudheer: "good boy"
+    sudheer: "good-boy"
     project: "expense"
     environment: "dev"
     component: "testing"
