@@ -1,0 +1,12 @@
+kind: Pod
+apiVersion: v1
+metadata:
+  name: testpodforservice
+  labels:
+    sudheer: "good boy"
+    project: "expense"
+    environment: "dev"
+    component: "testing"
+container:
+- name: nginx
+  image: nginx

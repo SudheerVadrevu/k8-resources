@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: my-service
+spec:
+  selector:
+    sudheer: "good boy"
+    project: "expense"
+    environment: "dev"
+    component: "testing"
+ports:
+    - protocol: TCP
+      port: 80 # idhi mana service port
+      targetPort: 80 # target port 
+      #type: illa type emi ivaka pothey adhe cluster IP ane thesukuntundhi
+
