@@ -8,7 +8,7 @@ spec:
     project: "expense"
     environment: "dev"
     component: "testing"
-ports:
+  ports:
     - protocol: TCP
       port: 80 # idhi mana service port
       targetPort: 80 # target port 
