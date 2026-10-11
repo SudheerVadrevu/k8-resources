@@ -14,4 +14,5 @@ spec:
       port: 80 # idhi mana service port
       targetPort: 80 # target port 
       #type: illa type emi ivaka pothey adhe cluster IP ane thesukuntundhi
+      nodePort: 33007
 
